@@ -9,7 +9,7 @@ public class Algoritmo04 {
         System.out.print("Ingrese los minutos consumidos en el mes: ");
         minutos_consumidosmes = teclado.nextInt();
         costo_planilla = costo_minutos * minutos_consumidosmes;
-        System.out.print("El costo total de la planilla es : " + costo_planilla);
+        System.out.print("El costo total de la planilla es : " + costo_planilla + (" $"));
     }
 }
 /**
@@ -17,5 +17,5 @@ public class Algoritmo04 {
  * Debug:
  * Ingrese el costo por minutos consumidos: 5
  * Ingrese los minutos consumidos en el mes: 100
- * El costo total de la planilla es : 500.0
+ * El costo total de la planilla es : 500.0 $
  */

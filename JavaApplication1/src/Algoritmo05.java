@@ -12,7 +12,7 @@ public class Algoritmo05 {
         System.out.print("Ingrese el costo del raton: ");
         costo_raton = teclado.nextFloat();
         costo_total = costo_CPU + costo_pantalla + costo_raton + costo_teclado;
-        System.out.print("El costo total de la computadora de escritorio es: " + costo_total);
+        System.out.print("El costo total de la computadora de escritorio es: " + costo_total + (" $"));
     }
 }
 /**
@@ -22,5 +22,5 @@ public class Algoritmo05 {
  * Ingrese el costo del teclado: 10
  * Ingrese el costo del pantalla: 60
  * Ingrese el costo del raton: 30
- * El costo total de la computadora de escritorio es: 150.0
+ * El costo total de la computadora de escritorio es: 150.0 $
  */

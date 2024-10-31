@@ -14,7 +14,7 @@ public class Algoritmo02 {
         //BLOQUE DE PROCESAMIENTO DE DATOS DE ENTRADA LEIDOS
         gastos_totales = gastos_hijo1 + gastos_hijo2 + gastos_hijo3;
         //BLOQUE DE SALIDA DE RESULTADOS
-        System.out.print("Los gastos totales de los 3 hijos son: " + gastos_totales);
+        System.out.print("Los gastos totales de los 3 hijos son: " + gastos_totales + (" $"));
     }
 }
 /**
@@ -23,6 +23,6 @@ public class Algoritmo02 {
  * Ingrese los gastos del primer hijo: 15,50
  * Ingrese los gastos del segundo hijo: 9,50
  * Ingrese los gastos del tercer hijo: 10
- * Los gastos totales de los 3 hijos son: 35.0
+ * Los gastos totales de los 3 hijos son: 35.0 $
  * 
  */
