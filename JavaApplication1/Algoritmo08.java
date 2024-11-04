@@ -9,7 +9,7 @@ public class Algoritmo08 {
         cost_youtube_premium = teclado.nextFloat();
         System.out.print("Ingrese el valor mensual del servicio DropBox:  ");
         cost_dropbox = teclado.nextFloat();
-        System.out.print("Ingrese el valor mensual del servicio Spotitfy:  ");
+        System.out.print("Ingrese el valor mensual del servicio Spotify:  ");
         cost_spotify = teclado.nextFloat();
         pagar_mensual = (cost_dropbox + cost_netflix + cost_spotify + cost_youtube_premium);
         System.out.println("El valor a pagar mensual es: " + pagar_mensual + (" $"));
