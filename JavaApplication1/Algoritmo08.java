@@ -7,7 +7,7 @@ public class Algoritmo08 {
         cost_netflix = teclado.nextFloat();
         System.out.print("Ingrese el valor mensual del servicio Youtube Premium:  ");
         cost_youtube_premium = teclado.nextFloat();
-        System.out.print("Ingrese el valor mensual del servicio DopBox:  ");
+        System.out.print("Ingrese el valor mensual del servicio DropBox:  ");
         cost_dropbox = teclado.nextFloat();
         System.out.print("Ingrese el valor mensual del servicio Spotitfy:  ");
         cost_spotify = teclado.nextFloat();
